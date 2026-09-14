@@ -2,7 +2,7 @@
   "contractVersion": 1,
   "linearIssue": "DEN-3040",
   "productRepository": "hypesiege/hypesiege-lib-core",
-  "revision": "ff0876cc27a7b7d4c2a6cd7c4587ff0b306057bf",
+  "revision": "0236734022086e3f7435b71775c45e8ce5b42f45",
   "schema": "hypesiege",
   "purpose": "marketing_search",
   "expected": {
