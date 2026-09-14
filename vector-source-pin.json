@@ -2,7 +2,7 @@
   "contractVersion": 1,
   "linearIssue": "DEN-3040",
   "productRepository": "hypesiege/hypesiege-lib-core",
-  "revision": "37ca084be8cf96bfe157e8231d2ced191e00763f",
+  "revision": "8a0748aa8bde34b88d64c202cbdf0393af2af772",
   "schema": "hypesiege",
   "purpose": "marketing_search",
   "expected": {
@@ -11,10 +11,6 @@
     "fullPrecisionIndexCeiling": 2000,
     "halfPrecisionIndexCeiling": 4000,
     "maximumSourceDimensions": 4096,
-    "targets": [
-      "postgresql",
-      "neon",
-      "supabase"
-    ]
+    "targets": ["postgresql", "neon", "supabase"]
   }
 }
