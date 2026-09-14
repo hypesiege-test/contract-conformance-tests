@@ -55,6 +55,9 @@ jobs:
           persist-credentials: false
           show-progress: false
           token: ${{ secrets.TEST_FLEET_READ_TOKEN || github.token }}
+      - name: Execute product-owned embedding verifier
+        working-directory: .product-source
+        run: node scripts/verify-embedding-contract.mjs
       - name: Exercise vector storage, search, RLS, and Supabase privileges
         env:
           PGDATABASE: vector_contract
